@@ -6,4 +6,4 @@ Technologies:
 1 SmartyBaseP - prohect based on technology smarty. Smarty is a web template system written in PHP. Smarty is primarily promoted as a tool for separation of concerns. Smarty is intended to simplify compartmentalization, allowing the front-end of a web page to change separately from its back-end. Ideally, this lowers costs and minimizes the efforts associated with software maintenance.
 Smarty generates web content through the placement of special Smarty tags within a document. These tags are processed and substituted with other code. Tags are directives for Smarty that are enclosed by template delimiters. These directives can be variables, denoted by a dollar sign ($), functions, logical or loop statements. Smarty allows PHP programmers to define custom functions that can be accessed using Smarty tags.
 2 blackjackAnimation - based on JQuery, implementation of the game "black jack".
-3 
+3 korzina - online store project, based on php
