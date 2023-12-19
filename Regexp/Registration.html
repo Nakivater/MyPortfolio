@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link href="Registration.css" rel="stylesheet">
+</head>
+<body>
+<form method="post" enctype="multipart/form-data" id="submit" action="register.php">
+    <p>Enter Cyrillic name letters from 3-12</p>
+        <input type="text" id="name" name="name"><span class="error" id="sname"></span>
+    <p>Enter your login in Latin from 4-12</p>
+    <input type="text" id="login" name="login"><span class="error" id="slogin"></span>
+    <p>Enter 4 character password</p>
+<input type="password" id="password" name="password"><span class="error" id="spassword"></span>
+    <p>Reenter your password</p>
+    <input type="password" id="password1" name="password1"><span class="error" id="spassword1"></span>
+    <p>Enter a phone number like +38(xxx)-xxx-xx-xx</p>
+<input type="text" id="tel" name="tel"><span class="error" id="stel"></span>
+    <p>Enter identification code 16 characters</p>
+<input type="text" id="kod" name="kod"><span class="error" id="skod"></span>
+    <p>Enter your passportт</p>
+    <input type="text" id="pas1" placeholder="Series 2 letters" name="pas1"><span class="error" id="spas1" ></span> <input type="text" id="pas2" placeholder="Номер 6 цифр" name="pas2"><span class="error" id="spas2"></span>
+    <p>Enter email</p>
+    <input type="text" id="email" name="email"><span class="error" id="semail"></span>
+    <p>Enter the site domain</p>
+    <input type="text" id="domen" name="domen"><br><br><span class="error" id="sdomen"></span>
+    <input type="button" id="register" value="Зарегестрироваться">
+    <span class="error" id="ssubmit"></span>
+</form>
+    <script src="Registration.js"></script>
+</body>
+</html>

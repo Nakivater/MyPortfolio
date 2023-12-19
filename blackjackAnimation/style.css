@@ -1,0 +1,29 @@
+body
+{
+background-color: silver;
+}
+#controls
+{
+    clear: both;
+}
+#my_hand
+{
+    clear: both;
+    /*border: 1px solid gray;*/
+    height: 250px;
+    width: 835px;
+}
+h3
+{
+    display: inline;
+    padding-right: 40px;
+}
+#bthHit,#bthStick,#bthRestart
+{
+    display: none;
+    float: left;
+}
+.current_hand
+{
+    float: left;
+}

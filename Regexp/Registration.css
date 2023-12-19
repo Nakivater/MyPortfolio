@@ -1,0 +1,20 @@
+body
+{
+
+}
+div #main
+{
+background-color: gold;
+}
+.error{
+    font-size: 20px;
+    color:red;
+}
+.inputerror
+{
+    border: 2px solid red;
+}
+.inputsucsess
+{
+    border: 2px green solid;
+}

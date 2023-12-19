@@ -1,0 +1,23 @@
+body
+{
+    background-color: forestgreen;
+}
+.current_hand
+{
+    float: left;
+}
+#my_hand
+{
+    float: left;
+
+}
+img
+{
+    height: 80px;
+    padding: 20px;
+    padding-left: 0px;
+}
+.current
+{
+    float: left;
+}
