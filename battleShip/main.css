@@ -1,0 +1,18 @@
+body{
+}
+img{
+   border: black solid 1px;
+
+}
+#numbers{
+   position: absolute;
+}
+#tr1 td{
+   color: aliceblue;
+   padding-left: 40px;
+}
+#show{
+   color: red;
+   position: relative;
+   padding-left: 80%;
+}
